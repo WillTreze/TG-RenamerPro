@@ -30,9 +30,9 @@ async def help_user(c,m):
                return
         except UserNotParticipant:
             await m.reply_text(
-                text="**Join My Updates Channel to use me & Enjoy the Free Service**",
+                text="**Join My Updates Channel In Order To Use Me**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join Our Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="Join Updates Channel", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -52,9 +52,9 @@ async def start_msg(c,m):
                return
         except UserNotParticipant:
             await m.reply_text(
-                text="**Join My Updates Channel to use me & Enjoy the Free Service**",
+                text="**Join My Updates Channel In Order To Use Me**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join Our Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="Join Updates Channel", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
@@ -62,11 +62,11 @@ async def start_msg(c,m):
         reply_markup=InlineKeyboardMarkup(
             [
                [
-                InlineKeyboardButton("⚙ Updates Channel", url=f"https://t.me/mwklinks"),
-                    InlineKeyboardButton("🛠 Support Group", url=f"https://t.me/redbullfed")
+                InlineKeyboardButton("📜 Updates Channel", url=f"https://t.me/my_test_Botz"),
+                    InlineKeyboardButton("Other Bots 🤖", url=f"https://t.me/My_Test_Botz/47")
                 ],
                 [
-                    InlineKeyboardButton("👨‍🔬 Developer", url=f"https://t.me/shamilnelli")
+                    InlineKeyboardButton("👨‍💻 Developer", url=f"https://t.me/Amani_m_h_d")
                 ]
             ]
         ),
