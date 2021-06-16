@@ -22,9 +22,9 @@ async def rename_filter(c,m):
                return
         except UserNotParticipant:
             await m.reply_text(
-                text="**Join My Updates Channel to use me & Enjoy the Free Service**",
+                text="**Join My Updates Channel In order To Use Me**",
                 reply_markup=InlineKeyboardMarkup([
-                    [ InlineKeyboardButton(text="Join Our Updates Channel", url=f"https://t.me/{update_channel}")]
+                    [ InlineKeyboardButton(text="Join Updates Channel", url=f"https://t.me/{update_channel}")]
               ])
             )
             return
