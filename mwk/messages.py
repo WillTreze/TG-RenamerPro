@@ -1,14 +1,9 @@
 class Translation(object):
-    START_TEXT = """**Hello,
-This is a Telegram Rename Bot by @shamilnelli 😇
-
-Please send me any File, i can Rename It As Per Your choices to telegram as File/Video
-
-Hit /help for more details.. and more thing waiting for u there 😉**"""
+    START_TEXT = """**Hi {user_mention},\n\nI am a Telegram Renamer & Converter Bot As File/Video with thumbnail support 💯.\n\n𝖥𝗈𝗋 𝖬𝗈𝗋𝖾 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 𝖲𝖾𝖾 /h𝖾𝗅𝗉.\n\n🏷 Maintained By: @Amani_m_h_d**"""
 ######################
-    HELP_USER = """**1 >>Send File/Video\n2 >>Choose Your desired Option\n3 >>Wait for it to process files**"""
+    HELP_USER = """**Hey, Follow Below Steps:**\n\n☞ **Send a photo to set as thumbnail.**\n☞︎︎︎ **Now send me the Telegram file or video you want to rename & convert.**\n☞︎︎︎ **Select desired option And done wait for it to process files.**\n\n**🏷 Maintained By: @Amani_m_h_d**"""
     DOWNLOAD_MSG = "**Yup Bro, Downloading....**😌"
     DOWNLOAD_FAIL_MSG = "**Sorry Baby 😔, Something Error With Your File**❎"
-    UPLOAD_MSG = "**Yeah Boy, Uploading it**🤓"
+    UPLOAD_MSG = "**Yeah Bro, Uploading it**🤓"
     UPLOAD_FAIL_MSG = "**Sorry Baby 😔, Something Error With Your File**❎"
-    UPLOAD_DONE_MSG = "**Finally Uploaded Join My Update Channel.. if you like me 🤪"
+    UPLOAD_DONE_MSG = "**Finally Uploaded Successfully 😴\n© @Amani_m_h_d"
