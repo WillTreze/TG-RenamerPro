@@ -35,6 +35,11 @@
     "UPDATE_CHANNEL": {
       "description": "Force Users to join channel",
       "required": true
+    },
+    "WEBHOOK": {
+      "description": "Force Users to join channel",
+      "value": "ANYTHING"
+      "required": true
     }
   },
   "addons": [
