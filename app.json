@@ -39,7 +39,6 @@
     "WEBHOOK": {
       "description": "Force Users to join channel",
       "value": "ANYTHING"
-      "required": true
     }
   },
   "addons": [
