@@ -24,7 +24,7 @@ Use [Rename Robot](https://telegram.dog/mwk_renamebot)
 #### The Simple Way
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
 
-###### While deplying on heroku kindly add buildback of ffmpeg
+### While deplying kindly add buildback of ffmpeg
 
 #### Hard Way (VPS)
 * This is just a demo of commands to use
@@ -36,8 +36,12 @@ Use [Rename Robot](https://telegram.dog/mwk_renamebot)
 👉 pip install -r requirements.txt
 👉 python3 bot.py
 ```
+
+##### Python Info
+```
 * Language: [Python3](https://www.python.org)
 * Library: [Pyrogram](https://docs.pyrogram.org)
+```
 
 ### Developer 
 * Telegram [Shamil Habeeb](https://telegram.dog/shamilnelli) 
@@ -54,6 +58,7 @@ Use [Rename Robot](https://telegram.dog/mwk_renamebot)
 * `OWNER_ID`: Owner's Userid for log command
 * `CUSTOM_CAPTION`: Custom Caption to use after Filename in caption
 * `UPDATE_CHANNEL` : for force sub
+* `WEBHOOK` : `ANYTHING`
 ```
 
 ## Commands:
