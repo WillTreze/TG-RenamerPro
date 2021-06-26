@@ -36,10 +36,21 @@ async def help_user(c,m):
               ])
             )
             return
-    try:
-       await m.reply_text(Translation.HELP_USER,quote=True)
-    except Exception as e:
-        log.info(str(e))
+    await m.reply_text(Translation.HELP_USER.format(m.from_user.first_name),
+        reply_markup=InlineKeyboardMarkup(
+            [
+               [
+                InlineKeyboardButton("📜 Updates Channel", url=f"https://t.me/my_test_Botz"),
+                    InlineKeyboardButton("Other Bots 🤖", url=f"https://t.me/My_Test_Botz/47")
+                ],
+                [
+                    InlineKeyboardButton("👨‍💻 Developer", url=f"https://t.me/Amani_m_h_d")
+                ]
+            ]
+        ),
+        reply_to_message_id=m.message_id
+    )
+          #  return
         
 @Client.on_message(filters.command("start"))
 async def start_msg(c,m):
